@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/block.js"></script>
+    <link rel="stylesheet" href="/block.css">
+</head>
+<body>
+    <div class="form">
+        <div class="order">
+            <h1>Сделайте заказ</h1>
+                <p class="coffee-p">Сорт кофе</p>
+                <select id="coffee">
+                <option value="Эфиопский">Эфиопский</option>
+                <option value="Необжаренный">Необжаренный</option>
+                <option value="Колумбийский">Колумбийский</option>
+                </select>
+                <p class="box-p">Кол-во коробок</p>
+                <select id="box">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+                <p class="weight-p">Вес</p>
+                <select id="weight">
+                    <option value="10">10кг</option>
+                    <option value="20">20кг</option>
+                    <option value="30">30кг</option>
+                    <option value="40">40кг</option>
+                    <option value="50">50кг</option>
+                </select>
+                <p class="departure-date-p">Дата отправки</p>
+                <input class="departure-date" type="date">
+                <p class="arrival-date">Дата прибытия</p>
+                <input class="arrival-date" type="date">
+            </div>
+            <div class="status">
+                <button onclick="btn()" id="ask">
+                    STATUS
+                </button>
+            </div>
+      <span id="root"></span>
+    </div>
+</body>
+</html>
